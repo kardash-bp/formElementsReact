@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const FormElements = (props) => {
-  console.log(props)
+  // console.log(props)
   const { element, label, type, name, value, cb, error } = props
   let field = null
   switch (element) {

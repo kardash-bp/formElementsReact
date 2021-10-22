@@ -22,6 +22,7 @@ class Form extends Component {
     }
     this.props.history.push({ pathname: '/user', state: this.state })
   }
+
   handleChange = (e) => {
     this.setState({
       [e.target.name]: e.target.value,
